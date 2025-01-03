@@ -101,9 +101,9 @@ After successful installation, you can run the project using the following steps
    ```
 2. **Process Flow**
 
-   - **Scraping**: The program scrapes emoji data from [Emojigraph](https://emojigraph.org/) and saves it as `emojis.json`.
+   - **Scraping**: The program scrapes emoji data from [Emojigraph](https://emojigraph.org/) and saves it as `emoji_mapping.json`.
    - **Downloading**: It then downloads each emoji image to the `images/` directory.
-   - **JSON Fixing**: Finally, it updates the `emojis.json` file to reference the local image paths instead of the original URLs.
+   - **JSON Fixing**: Finally, it updates the `emoji_mapping.json` file to reference the local image paths instead of the original URLs `emoji_mapping_local.json`.
 3. **Output**
    - **emoji_mapping.json**: Contains structured emoji data with internet image paths.
    - **emoji_mapping_local.json**: Contains structured emoji data with local image paths.
