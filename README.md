@@ -1,4 +1,4 @@
-# EmojiGenmoji Project
+# Emoji 2 Genmoji Project
 ## Table of Contents
 - [Introduction](#introduction)
 - [Features](#features)
